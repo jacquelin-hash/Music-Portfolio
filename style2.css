@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", serif;
+    font-weight: 700;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);
+    padding: 2rem;
+}
+
+.record-title{
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;  /* Bold for headings */
+    font-style: normal;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fafafa;
+    font-size: 2.5rem;
+    backdrop-filter: blur(300px);
+    border-bottom: 1px solid rgba(211, 55, 172, 0.1);
+}
+
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    background: #e0e0e0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.filter-btn:hover {
+    background: #d0d0d0;
+}
+
+.filter-btn.active {
+    background: #2563eb;
+    color: white;
+}
+
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.record-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.record-card:hover {
+    transform: translateY(-5px);
+}
+
+.record-cover {
+    height: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.album-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.record-info {
+    padding: 1.5rem;
+}
+
+.record-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.record-artist {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.record-meta {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.record-tag {
+    background: #f0f0f0;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.875rem;
+}
+
+.record-description {
+    color: #666;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+}

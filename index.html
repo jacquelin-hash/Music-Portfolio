@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinyl Collection</title>
+    <link herf="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vinyl Collection</h1>
+        
+        <div class="controls">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-genre="all">All</button>
+                <button class="filter-btn" data-genre="indie">Indie</button>
+                <button class="filter-btn" data-genre="pop">Pop</button>
+                <button class="filter-btn" data-genre="classical">Classical</button>
+            </div>
+        </div>
+
+        <div class="records-grid" id="recordsGrid">
+            <!-- Records will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
