@@ -6,7 +6,7 @@ const records = [
         year: 2013,
         genre: "Indie",
         image: "AM.jpeg",
-        description: "A modern indie rock masterpiece blending rock with R&B influences."
+        description: "The album is considered a concept album about infatuation and frustration, and the uncertainty of whether feelings are reciprocated."
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const records = [
         year: 2015,
         genre: "Indie",
         image: "Currents.jpg",
-        description: "A psychedelic journey through themes of personal transformation."
+        description: "marks a shift to more dance-oriented music, with more emphasis placed on synthesisers than guitars."
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const records = [
         year: 2014,
         genre: "Pop",
         image: "1989.webp",
-        description: "A synth-pop album marking Swift's official transition to pop music."
+        description: "Explores the feelings that come after a major move or life change"
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const records = [
         year: 2020,
         genre: "Pop",
         image: "After Hours .jpeg",
-        description: "A dark pop masterpiece blending 80s synth-pop with modern R&B."
+        description: "Discuss the Weeknd's regret of ending a relationship with a former lover, and his desire for them to reconcile and to have children."
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const records = [
         year: 1824,
         genre: "Classical",
         image: "Symphony No.9.jpeg",
-        description: "The final complete symphony by Beethoven, featuring the 'Ode to Joy'."
+        description: "Bridged the gap between classical and romantic music and set the standard for future composers through his use of the choral finale combined with past musical traditions."
     },
     {
         id: 6,
